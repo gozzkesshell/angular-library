@@ -1,0 +1,8 @@
+<mat-list>
+  <mat-list-item *ngFor="let book of bookService.getBooks()">
+    <div >
+      <app-book [book]="book"></app-book>
+    </div>
+  </mat-list-item>
+</mat-list>
+

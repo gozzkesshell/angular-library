@@ -1,0 +1,6 @@
+<div>
+ <span>{{book.getAuthor()}} </span>
+  <span> {{book.getTitle()}}</span>
+  <span>{{book.getDate().toDateString()}}</span>
+  <span><button (click)="deleteBook(book.getId())"> Delete </button> </span>
+</div>
